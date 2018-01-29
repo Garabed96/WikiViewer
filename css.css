@@ -1,0 +1,74 @@
+#main{
+  position:relative;
+    transform: translate(40%,10%);
+
+
+  }
+
+p{
+  font-size:2em;
+}
+
+
+}
+.size{
+  font-size:3em;
+  color:white;
+text-align:center;
+  font-family:Courier;
+}
+
+
+input[type=text]{
+  width: 130px;
+    box-sizing:border-box ;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://i58.photobucket.com/albums/g252/nazariangarabed/1493858238_icon-111-search_zpsyn2bp5nr.png');
+    background-position: 20px 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+
+
+
+body{
+  background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+li a{
+  color: black;
+
+}
+
+
+li a:hover{
+  text-decoration: none;
+  color:white;
+
+}
+
+.results-container{
+  padding:10px;
+}
+
+.results-container:hover{
+
+  border-style:circle;
+  border-style:circle;
+  border-radius:4px;
+  background-color: #222;
+  font:;
+  border:circle;
+  list-style-type: circle;
+}
